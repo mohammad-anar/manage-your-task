@@ -4,9 +4,17 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
+  daisyui: {
+    themes: ["emerald"],
   },
-  plugins: [],
+  theme: {
+    extend: {
+      colors: {
+        'primary': "#b51ce3",
+        'action': "",
+      },
+    },
+  },
+  plugins: [require("daisyui")],
 }
 

@@ -1,0 +1,6 @@
+.banner{
+    background-image: url("../../../assets/taskBanner.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
