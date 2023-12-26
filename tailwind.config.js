@@ -11,7 +11,7 @@ export default {
     extend: {
       colors: {
         'primary': "#b51ce3",
-        'action': "",
+        'action': "#236ef6",
       },
     },
   },
