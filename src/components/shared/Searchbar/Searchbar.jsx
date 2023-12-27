@@ -7,7 +7,7 @@ const Searchbar = () => {
       <input
         type="text"
         placeholder="Search our store"
-        className={`bg-white focus:outline-none rounded-full p-2 px-4 w-full`}
+        className={`bg-gray-100 focus:outline-none rounded-full p-2 px-4 w-full`}
       />
       <Link
         to=""

@@ -4,6 +4,8 @@ import Home from "../pages/Home/Home";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import DashobardLayout from "../layout/DashobardLayout";
 import Dashboard from "../pages/Dashboard/Dashboard";
+import CreateTask from "../components/Dashboard/CreateTask";
+import TaskList from "../components/Dashboard/taskList/TaskList";
 
 const Routers = createBrowserRouter([
   {
@@ -25,6 +27,13 @@ const Routers = createBrowserRouter([
         index: true,
         element: <Dashboard />,
       },
+      {
+        path: "create-task",
+        element: <CreateTask />,
+      },{
+        path: "tasks-list",
+        element: <TaskList/>
+      }
     ],
   },
 ]);
